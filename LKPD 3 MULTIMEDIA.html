@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelajah Wisata Indonesia</title>
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Header / Banner */
+        header {
+            background-color: #00ffff; /* Warna cyan */
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header p {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        /* Navigasi */
+        nav {
+            background-color: #f5eccd; /* Warna krem */
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        /* Container Konten */
+        .container {
+            max-width:1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .section-desc {
+            font-size: 12px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        /* Grid Destinasi Wisata */
+        .grid-wisata {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            flex: 1;
+            max-width: 32%;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card h4 {
+            margin: 15px 0 8px 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .card p {
+            margin: 0;
+            font-size: 14x;
+            line-height: 1.5;
+            color: #444;
+        }
+
+        /* Media Elements */
+        audio, video {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 4px;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 40px;
+            padding: 15px 0;
+            font-size: 11px;
+            color: #333;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>JELAJAH WISATA INDONESIA</h1>
+        <p>Temukan Keindahan Alam dan Budaya Indonesia</p>
+    </header>
+
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#wisata">Wisata</a>
+        <a href="#galeri">Galeri</a>
+    </nav>
+
+    <div class="container">
+        <section id="beranda">
+            <div class="section-title">🏠 Beranda</div>
+            <p class="section-desc">
+                Selamat datang di website Jelajah Wisata Indonesia. Website ini berisi informasi mengenai beberapa tempat wisata menarik yang ada di Indonesia.<br>
+                Indonesia memiliki banyak sekali destinasi wisata, mulai dari pegunungan, pantai, laut, hingga wisata budaya.
+            </p>
+        </section>
+
+        <hr color="#eee" size="1">
+
+        <section id="wisata">
+            <div class="section-title">🏞️ Destinasi Wisata</div>
+            <p class="section-desc">Berikut adalah objek wisata menarik di Jawa Timur</p>
+            
+            <div class="grid-wisata">
+                <div class="card">
+                    <img src="d:\PRODUKTIF RPL\Pemrograman Web\modul 4\asset\Screenshot 2026-09-10 092928.png" alt="Gunung Penanggungan Mojokerto">
+                    <h4>Gunung Penanggungan</h4>
+                    <p>Gunung Penanggungan—yang secara administratif terletak di perbatasan Kabupaten Mojokerto dan Kabupaten Pasuruan, Jawa Timur.</p>
+                </div>
+                <div class="card">
+                    <img src= "d:\PRODUKTIF RPL\Pemrograman Web\modul 4\asset\Screenshot 2026-09-10 092904.png" alt="Candi Bajang Ratu">
+                    <h4>Candi Bajang Ratu</h4>
+                    <p>Candi Bajang Ratu (sering disebut Gapura Bajang Ratu) adalah peninggalan Kerajaan Majapahit abad ke-14 yang terletak di Desa Temon, Kecamatan Trowulan, Kabupaten Mojokerto, Jawa Timur.</p>
+                    
+                </div>
+                <div class="card">
+                    <img src="d:\PRODUKTIF RPL\Pemrograman Web\modul 4\asset\Screenshot 2026-09-10 092752.png" alt="Air Terjun Dlundung Mojokerto">
+                    <h4>Air Terjun Dlundung</h4>
+                    <p>Air Terjun Dlundung merupakan salah satu destinasi wisata alam populer di Kecamatan Trawas, Kabupaten Mojokerto, Jawa Timur.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr color="#eee" size="1">
+
+        <section>
+            <div class="section-title">🎧 Musik Nusantara</div>
+            <p class="section-desc">Silakan dengarkan musik berikut sambil menikmati informasi wisata Indonesia.</p>
+            <audio controls>
+                <source src="d:\PRODUKTIF RPL\Pemrograman Web\modul 4\asset\fiikuri-epic-nusantara-free-gamelan-music-from-indonesian-328513.mp3" type="audio/mpeg">
+                Browser Anda tidak mendukung elemen audio.
+            </audio>
+        </section>
+
+        <hr color="#eee" size="1">
+
+        <section>
+            <div class="section-title">🎬 Wonderland Indonesia</div>
+            <p class="section-desc">Silakan melihat video berikut sambil menikmati informasi wisata Indonesia.</p>
+            <video controls>
+                <source src="d:\PRODUKTIF RPL\Pemrograman Web\modul 4\asset\“The Guardian of Nusantara” by Alffy Rev ft Once Mekel, Sudjiwo Tejo, Novia Bachmid (Official MV).mp4" type="video/mp4">
+                Browser Anda tidak mendukung elemen video.
+            </video>
+        </section>
+    </div>
+
+    <footer>
+        Contact Person By: Vebriyanti Dwi Anggraini, S.Pd., M.Pd
+    </footer>
+
+</body>
+</html>
